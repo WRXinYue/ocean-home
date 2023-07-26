@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>HTML5 Boilerplate</title>
+    <meta name="description" content="">
+    <!--  为移动设备定义视口 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <!-- 现代标准化的特定样式 -->
+    <link href="./assets/css/normalize.css" rel="stylesheet" media="all" />
+    <link href="./assets/css/styles.css" rel="stylesheet" media="all" />
+    <link href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <header class="bg-white bg-opacity-90 fixed top-0 left-0 right-0 z-50 shadow-md" role="banner">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <div class="text-2xl font-bold w-auto">Ocean</div>
+            <nav>
+                <ul class="menuList flex space-x-4">
+                    <li class="menuItem nav-link" data-id="1"><a href="#">首页</a></li>
+                    <li class="menuItem nav-link" data-id="2"><a href="#">成员</a></li>
+                    <li class="menuItem nav-link" data-id="3"><a href="#">联系</a></li>
+                    <li class="menuItem nav-link" data-id="4"><a href="#">关于</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 用于占位的导航头部空间 -->
+    <div class="nav-h"></div>
+    <!-- swiper-container -->
+    <div>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./assets/img/wallhaven-o5d1zm.jpg" alt="Slide 1"></div>
+            <div class="swiper-slide"><img src="./assets/img/slide2.png" alt="Slide 2"></div>
+            <div class="swiper-slide"><img src="./assets/img/wallhaven-9dxv78.jpg" alt="Slide 3"></div>
+        </div>
+        <div class="swiper-button-next outline-none"></div>
+        <div class="swiper-button-prev outline-none"></div>
+        <!-- <div class="swiper-pagination"></div> -->
+    </div>
+
+    <main role="main" class="md:w-[80%] mx-auto">
+        <h1 class="text-3xl font-bold py-8">Projects</h1>
+        <div class="flex flex-row justify-between mx-8">
+            <div class="md:w-[30%] card bg-white shadow-lg rounded-lg p-4 overflow-hidden">
+                <img class="w-full h-auto pb-3 object-cover object-center rounded-lg" src="./assets/img/slide4.png" alt="Slide">
+                <div class="text-container p-3">
+                    <p class="text-lg font-semibold">建筑平台</p>
+                    <p class="text-sm text-slate-500 pb-3">2023-6-14</p>
+                    <ol class="text-sm">
+                        <li>Read the comments in this template</li>
+                        <li>Decide how you think your content may fit into the template</li>
+                        <li>Start building your document</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="md:w-[30%] card bg-white shadow-lg rounded-lg p-4 overflow-hidden">
+                <img class="w-full h-auto pb-3 object-cover object-center rounded-lg" src="./assets/img/slide5.jpg" alt="Slide">
+                <div class="text-container p-3">
+                    <p class="text-lg font-semibold">人力资源双向推荐平台</p>
+                    <p class="text-sm text-slate-500 pb-3">2023-6-14</p>
+                    <ol class="text-sm">
+                        <li>Read the comments in this template</li>
+                        <li>Decide how you think your content may fit into the template</li>
+                        <li>Start building your document</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="md:w-[30%] card bg-white shadow-lg rounded-lg p-4 overflow-hidden">
+                <img class="w-full h-auto pb-3 object-cover object-center rounded-lg" src="./assets/img/slide1.jpg" alt="Slide">
+                <div class="text-container p-3">
+                    <p class="text-lg font-semibold">黄金商城</p>
+                    <p class="text-sm text-slate-500 pb-3">2023-6-14</p>
+                    <ol class="text-sm">
+                        <li>Read the comments in this template</li>
+                        <li>Decide how you think your content may fit into the template</li>
+                        <li>Start building your document</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <section>
+            <header>
+                <h2>Getting Started</h2>
+                <nav role="navigation">
+                    <ul>
+                        <li><a href="#introduction">Introduction</a></li>
+                        <li><a href="#instructions">Instructions</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <article id="introduction">
+                <h3>Introduction</h3>
+                <p>Welcome to <abbr title="HyperText Markup Language 5">HTML5</abbr> Bones. This is a template that contains comments to aid you with setting up your <abbr title="HyperText Markup Language 5">HTML5</abbr> document.</p>
+            </article>
+            <article id="instructions">
+                <h3>Instructions</h3>
+                <ol>
+                    <li>Read the comments in this template</li>
+                    <li>Decide how you think your content may fit into the template</li>
+                    <li>Start building your document</li>
+                </ol>
+            </article>
+            
+                <!-- 项目列表 -->
+
+                <!-- 公司方向 -->
+
+        </section>
+    </main>
+
+    <footer role="contentinfo" class="flex justify-center items-center">
+        <div class="h-28 w-full bg-slate-50 flex flex-col justify-center items-center">
+            <p class="font text-slate-800 text-lg font-bold mb-1 text-center">版权所有 &copy; <time datetime="2023">2023</time></p>
+            <p class="text-stone-500 text-sm text-center font-medium">备案号</p>
+        </div>
+    </footer>
+</body>
+
+<script type="module">
+    import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.esm.browser.min.js'
+
+    var swiper = new Swiper(".mySwiper", {
+        cssMode: true,
+        pagination: {
+            el: ".swiper-pagination",
+            type: "progressbar",
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        autoplay: {
+            delay: 5000,
+        },
+        mousewheel: true,
+        keyboard: true,
+    });
+
+    $(document).ready(function() {
+      let active = 1;
+
+      function changeMenu(id) {
+        active = id;
+        $('.menuList .menuItem').each(function() {
+          const menuItem = $(this);
+          if (menuItem.data('id') === id) {
+            // menuItem.addClass('isActive');
+            $('<div class="lineProgress"></div>').appendTo(menuItem);
+          } else {
+            // menuItem.removeClass('isActive');
+            menuItem.find('.lineProgress').remove();
+          }
+        });
+      }
+
+      // 设置初始状态
+      changeMenu(active);
+
+      $('.menuList .menuItem').on('click', function() {
+        changeMenu($(this).data('id'));
+      });
+    });
+</script>
+
+<style>
+/* ===== global 全局 ====== */
+:root {
+  --menuItem-width: 150px; /* 导航按钮间距 */
+  --nav-height: 7vh; /* 导航高度 */
+}
+
+/* ===== 插件 ===== */
+.swiper {
+    width: 100%;
+    height: calc(100vh - var(--nav-height));
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* ===== 自定义 ===== */
+a, a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.card {
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+.card img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+.card img:hover {
+    transform: scale(1.05);
+}
+
+.nav-h {
+    height: var(--nav-height);
+}
+.nav-link {
+    transition: color 0.3s;
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: #2b2e2e;
+}
+.nav-link:hover {
+    color: #868a8a;
+    text-decoration: underline;
+}
+
+.menuList {
+    line-height: var(--nav-height);
+    justify-content: center;
+}
+.menuItem {
+    width: var(--menuItem-width);
+    cursor: pointer;
+    text-align: center;
+}
+/* .isActive {
+    background: #000000;
+} */
+.lineProgress {
+    width: 0px;
+    height: 4px;
+    background: rgb(57, 197, 187);
+    position: absolute;
+    animation: mymove 1s;
+    animation-fill-mode : forwards
+}
+@keyframes mymove
+{
+    from { width:0px; }
+    to {  width: var(--menuItem-width); }
+}
+</style>
+</html>
